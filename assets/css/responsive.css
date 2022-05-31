@@ -1,0 +1,83 @@
+
+@media (min-width: 1024px){
+   .mobile-menu{
+      display: none !important;
+   }
+}
+
+@media (max-width: 1023px){
+   .social-list{
+      font-size: 62px;
+
+   }
+   .social-list a {
+      font-size: 30px;
+   }
+}
+@media (min-width: 741px ) and (max-width: 1023px)  {
+   .mobile-menu{
+      display: none !important;
+   }
+   .buy-tickets{
+      padding: 14px 30px;
+   }
+   .contact-right .form-control{
+      padding: 26px;
+
+   }
+   .form-submit {
+      padding: 24px 55px;
+      font-size: 22px;
+   }
+}
+
+
+@media (max-width: 740px){
+   .s-full-width{
+      width: 100% !important;
+
+   }
+    #nav>li {
+       display: block;
+
+    }
+    #Header {
+      overflow: hidden;
+    }
+    #nav>li:first-child{
+       display: inline-block;
+    }
+    .search-header{
+       display: none;
+    }
+    #nav {
+      display: block;
+       }
+       #The-Band .member-item{
+          width: 100%;
+
+       }
+       .member-list img {
+          margin-bottom: 16px;
+       }
+       .member-list .member-img {
+         width: 60%;
+       }
+       .s-col-full{
+          width: 100%;
+          margin-bottom: 16px;
+       }
+       .ss-col-full{
+         width: 100%;
+         margin-top: 8px;
+       }
+       .form-submit{
+         margin: 16px 0px;
+
+       }
+       .buy-tickets {
+         text-align: center;
+         width: 100%;
+       }
+
+ }
